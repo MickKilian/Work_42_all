@@ -1,0 +1,65 @@
+Makefile
+x pas besoin de specifier le nom du *.h, il peut trouver tout seul
+pas besoin de mettre Makefile quand compile bibliotheques
+understand the | in Makefile
+equivalent de MAND_DEP for BONUSES?
+What is POSIX?\can I use float type for time?
+gettime in statemsg? should be outside
+bzero on param and philo?
+param.philo not initilized
+protect thread and mutex
+pthread_detach
+display tick in msand not us
+should I start counting time before or after initialization
+check nb threads max
+no need for pthread_detach
+diplsay should be all actions or just the new status?
+difference between double and long long
+simplify nbrstr in putnbr
+check if bzero was used for all sructures initialization
+check all protections
+check if pthread_join and pthread_detach are necessary at the same time
+remove mutex in philo
+mallocs:
+- forks (member of philo)
+- each philo
+re-order members in structures
+order memebrs in structure initialization
+is the timestamp which is displayed the time from start or the absolute time given by the system?
+use function or function pointeur the same way?
+Order I realse forks should depend on philo->id (odd or even)?
+check that all function prototypes are reported in philo.h
+remove all printf
+tempo used?
+revoir l'utilit2 des membres de fork, en tous caas de user, pas sur qque je l'utilise
+OK to display at the end when all philosophers have eaten enough? because not asked in subject
+Should I print stamp just in ms or with dec (us) too ?
+x could I use a static variable for philo (so that I don't have to always pass it as a parameter)?
+sens de rotation des philosophers
+helgrind et option thread de sanitize
+
+remove us in display
+x OK create myusleep function to avoid extra time on usleep
+stops when last philo starts eating or finishes eating?
+Use a specific end message or not?
+
+replace printf of end message
+
+protection parsing intmin (atof) et compare a chaque nouveauchiffre ajoute que tu depasses pas
+parsing is it ok to accept 800a 
+display time absolute or relative?
+should say thinking at the beginning if not eating?
+check intmin et intmax (maybe intmin not needed because must be >0)
+check printf
+use thread_destroy?
+
+BONUS
+sem_unlink? meaning
+check all erros like also malloc or 
+in sem_open what is 0600 or 0644?
+use pthread_detach? also in main
+use mutex_destroy?
+in bonus dont need a linked list
+exit vs return
+mutex_destory -> they dont work all
+protect everything

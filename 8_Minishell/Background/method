@@ -1,0 +1,4 @@
+Minishell parsing/lexing
+
+open the files in this part to get fds and transfer it to exec
+

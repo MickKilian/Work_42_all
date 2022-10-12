@@ -1,0 +1,14 @@
+
+bonjour
+bonjour'monsieur' 'bonjour'monsieur bonjour"monsieur" "bonjour"monsieur
+'bonjour'monsieur'durand' "bonjour"monsieur"durand" 'bonjour'monsieur"durand" "bonjour"monsieur'durand'
+'bonjour
+'$USER'$USER
+< bonjour <bonjour bonjour< << bonjour <<bonjour bonjour<< > bonjour >bonjour bonjour> >> bonjour >>bonjour bonjour>>
+& bonjour &bonjour bonjour& && bonjour &&bonjour bonjour&& | |  bonjour |bonjour bonjour| || bonjour ||bonjour bonjour||
+'bonjour' "bonjour"
+''
+""
+'"bonjour"' "'bonjour'"
+bonjour<hello
+bonjour<&hello

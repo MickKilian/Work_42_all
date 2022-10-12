@@ -1,0 +1,3 @@
+Corrections Philosophers
+- segfault in bonus parsing wrong number of parameters entered by user (correct return (1); in ft_argerr
+- vlagrind --tool=helgrind detects error in bonus when user specifies minimum number of meals

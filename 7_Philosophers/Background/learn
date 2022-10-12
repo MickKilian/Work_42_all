@@ -1,0 +1,3 @@
+learn
+always mutex protect any variables accessible from at least 2 different threads
+do not use same mutex too much ? because it slows down performances

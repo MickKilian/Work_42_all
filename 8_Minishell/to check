@@ -1,0 +1,103 @@
+Minishell
+
+ascii <0 and >127 treated like standard ?
+manage <<< or >>>?
+init_action : now [10][10] need to malloc
+
+PARTICULAR CASES:
+ljkadf<&adf
+bash: adf: ambiguous redirect
+
+lexer.test wc < lexer.test wc
+wc: wc: No such file or directory
+
+implement & function with background run with a fork?
+ljkadf<&&adf
+bash: syntax error near unexpected token `&'
+implement ';' caractere normal
+implement '\' syntax error
+implement '\n' no
+implement '`'?	
+implement '#' as comment ?
+remove int type for functions which do not require it
+deal with fichiers compliques avec char < 0 hors table ascii
+check if /tab is implemented
+"'name$USER name'" -> well done
+ok for static const in *.h?
+unlink heredoc in exec
+use perror for file management?
+check comportement de "bonjour' dans bash
+protection des mallocs avec mallocator
+attention les expansions devraient se faire avec la variable "locale" de env et pas avec getenv
+verifier $$
+secure itoa used for heredocs
+should NEWi_ and STD_ be the same in RD_MD?
+remove unused action functions
+check problems with PIPES
+check error management of each function and mallocs
+check where errno is supposed to be used
+check path of .h cause it seems not found by makefile
+caracteres non geres voir fichier Excel 700 lignes
+
+BENJAMIN
+use env from Benjamin for expansion
+fd_in = 0
+fd_out = 1
+pass heredoc filenames
+tell Benjamin that I use strcmp from hin libft
+prompt or any other message/banner printed on STDERR
+sortir les fichiers de la libft du fichier common_utils
+remettre le bzero dans libft
+check why relative path is needed here in .h  # include "../lib/gnl/inc/get_next_line.h"
+check if errno can be used
+Y it s ok errno shouldn't be used
+
+caracteres non geres
+(), 
+SPECIAL CASES
+
+si int overflow dans les arguement le bash redemande un nombre, ce comportement est undefined
+attention a ne pas effacer ou free ce aue je passe a Benjamin
+check signaux dans les heredocs
+
+LEARNING
+if ptr is a malloc
+temp = ptr
+printf %p tmp will be the same as print %p ptr
+free(temp) will of course also free(ptr)
+but ptr = NULL will not make ptr = NULL
+
+Last changes to check
+Heredoc and redirection
+if redirection file (in or out) already exist in heredocs, change name of matching heredoc
+before creating herdoc with a chosen name, check that that name does not exist already in system
+
+TO DO
+set fd_out to 1 in normal case
+quitte proprepement les cas non definis
+
+CAS de PARSING
+LS| x 1016 char -> 
+
+TOUS PARSER
+comment sortir en cas d'erreur
+treat ';'?
+treat the tabs
+
+PARSER
+NEW_MD + TOK_PIPE -> error_syn ou error_syn_pipe ?
+EXPANSER
+n'expanse que dans les TOK_WORD ?
+ici CATCH a remplace NONE, is that ok? pars->exp_decision[NEW_EXP_RD_MD][END_CHAR] = (t_exp_proc){EXP_CATCH, EXP_SKIP, ERR_EXP_RD_MD, TOK_WORD};
+est que les /Users sont des expansions?
+
+FICHIERS 
+verfier les doits, si c'est pqs un dossier etc....
+
+DECISION
+& non gere (caractere normal)
+\ non gere (syntax error)
+
+TO DO
+combinaisons de caracteres speciaux
+verifier que tous les labels correspondent aux enums

@@ -1,0 +1,15 @@
+ARG=`./rand 3 3` && ./push_swap `echo $ARG` > operations.txt && cat operations.txt| wc -l && ./checker `echo $ARG`
+fonctionnement du visualisateur
+code .
+python3 python_visualizer.py `ruby -e "puts (0..499).to_a.shuffle.join(' ')"`
+ARG=`ruby -e "puts (0..99).to_a.shuffle.join(' ')"`; ./push_swap `echo $ARG` > operations.txt; cat operations.txt | wc -l; ./checker `echo $ARG`
+retrouver du texte dans les fichiers d'un repertoire entier
+grep -rnw . -e 'Free allocator'
+DEBUG.......= -g3 -fsanitize=address (use with valgrind ./push_swap 1 2 0)
+cc main.c color_comp.c color_conv.c color_manip.c color_info.c draw.c initialize.c utils.c -Iminilibx-linux -Lminilibx-linux -lmlx_Linux -o fractol -lXext -lX11 -lm
+Pipex:
+valgrind --show-leak-kinds=all --leak-check=full --track-fds=yes --trace-children=yes
+pour navigation a travers fonctions dans vim
+ctags -R puis Ctrl crochet droite et Ctrl T for back
+a utiliser pour lire our ecrire dirctement de l'entree/sortie std /dev/stdin /dev/stdout
+fflush(stdout)

@@ -1,0 +1,7 @@
+gere le cas ou commande entree avec '/' devant : mon programme ne detecte pas l'erreur et traite la commande comme si pas de '/'
+
+voir Folder tz (Theo)
+integrer mallocator (voir adresse github dans references) dans Makefile pour detecter/tester tous les malloc
+double free? dans split/strdup ddonc a mettre a jour dans la libft
+double free dans freeclose.c ligne 45
+check pourquoi .heredoc_temp existe toujours (normalement aurait du disparaitre avec unlink?)

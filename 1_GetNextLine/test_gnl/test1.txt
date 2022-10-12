@@ -1,0 +1,7 @@
+Bonjour les amis,
+ceci est un test.
+Un test de la fonction get_next_line! :)
+m
+
+Youpi!
+

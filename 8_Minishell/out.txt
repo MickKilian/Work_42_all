@@ -1,0 +1,8 @@
+8_Minishell_github
+Background
+en.subject (1).pdf
+Github_example
+minishell
+out.txt
+to check
+Type interactions

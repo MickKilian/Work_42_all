@@ -1,0 +1,29 @@
+https://mywiki.wooledge.org/BashParser
+Reference : bash --posix
+Minishell documentation
+https://harm-smits.github.io/42docs/projects/minishell
+https://pubs.opengroup.org/onlinepubs/007904875/utilities/xcu_chap02.html
+
+Check if useful
+https://stackabuse.com/how-to-parse-command-line-arguments-in-bash/
+https://medium.com/@Drew_Stokes/bash-argument-parsing-54f3b81a6a8f
+
+https://www.quora.com/What-is-the-difference-between-a-lexer-and-a-parser
+>>>>[
+Lexer (part of the program that does the lexical analysis = separates a stream of characters into words that are called tokens). Lexers work at word level.
+Parser : goes one level higher takes the tokens produced by the lexer and determines if proper sentences have been formed. Parsers work at grammatical level.
+https://dev.to/cad97/what-is-a-lexer-anyway-4kdo
+
+A lexer takes the string “A lexer takes the string" and produces something like (A [indefinite article], lexer [singular noun], takes [3rd person present tense], the [definite article], string [singular noun]). In other words, it takes a stream of characters, breaks it into tokens, and tags them with whatever information can be determined with no context whatsoever.
+
+A parser then determines the relationships between tokens to form a syntax tree: from the above, we'd obtain something like (v.pres.3.takes (indef.lexer) (def.string)).
+]<<<<
+
+Exemple d'un minishell :
+https://segfault42.github.io/posts/minishell/
+
+Token Id, types
+https://www.developpez.net/forums/d1016088/general-developpement/programmation-systeme/linux/parser-p-shell/
+
+Might be interesting at the end
+https://codes-sources.commentcamarche.net/forum/affich-10047436-developper-un-shell-de-base

@@ -1,0 +1,29 @@
+To do in Pipex
+Should file1 necessary exist (maybe cmd1 does not need input
+x free split
+x free malloc for fd and fd[i] in case of error and in general also for malloc pid
+How can I comment my program ?
+x understand well dup2
+x check all internal error codes
+x check close instructions at the end of Children processes
+x Can we use DEFINE
+x open files with correct flags
+use const functions for functions used in file only
+x check close
+x check file permissions 0777 or 0644
+x reference shell behavior : bash or zsh? ex: heredoc> or pipe heredoc> if pipe
+x use unlink and exit
+how to include external library without corresponding header file
+x use flags -I i Makefiles to specify path for headears
+x bzero
+x remove heredoc_file at the end?
+x check why leak when last command is wrong
+behavior when first command is null
+x too many err messages?
+x separate mandatory and bonus
+x can it work with just one command
+x program must take 4 parameters
+check SIGPIPE error
+x remove stdio.h (no because it is necessary for perror)
+x delete file heredoc at the end?
+x check for dprintf

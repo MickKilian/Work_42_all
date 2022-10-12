@@ -1,0 +1,21 @@
+* understand difference shell et /bin/zsh (ex: in Makefile)
+* mbourgeo | ~/Documents/6_Pipex > << end | grep hello                                                                       18:44:12
+toto      
+dslkfjslkjf
+sldkfjslkdf
+hello tutu
+sldfj
+end
+* < infile grep "hello" | wc -w > outfile 
+* echo 'hello world' > infile 
+* zsh in zsh creates a new isntance of zsh, ze can read in env that SHLVL=1 changes value to reflect shell level
+* int fd = open(infile, O_RDWR);
+if (fd < 0)
+perror(infile);
+
+regarder regle .o:.c est-elle bien ecrite dans mon Makefile
+pour utiliser la libft le makefile principal doit appeler le propre makefile de la libft!!! ce qui n'est pas le cas dans la version actuelle de pipex
+
+retravailler avec le .gitignore
+
+quand utilisation d'une bibliotheque comme libft, le .hde la lib est-il en include dans le .h du programme principal (ex: pipex.h)?
